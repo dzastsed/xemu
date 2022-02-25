@@ -523,7 +523,7 @@ static long get_file_size(FILE *f)
 uint64_t cpu_get_tsc(CPUX86State *env)
 {
     return cpus_get_elapsed_ticks();
-#endif
+
 }
 
 /* IRQ handling */
